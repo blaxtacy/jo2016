@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ximpel>
+    <playlist>
+	
+		<subject id="startscreen">
+            <media>
+                <image src="media/cake2.jpg">
+				<overlay text="Happy Birthday jojo!" width="1920px" height="150px" x="0px" y="100px" alpha="0.8" hoverAlpha="0.8" fontSize="70pt" backgroundColor="red"/>
+				<!--overlay shape="circle" diameter="400px" x="760px" y="390px" alpha="0.4" hoverAlpha="0.4" backgroundColor="#00ff00"/>
+				<overlay text="Open" hoverFontSize="60pt" shape="circle" diameter="300px" x="810px" y="440px" alpha="0.4" hoverAlpha="0.6" backgroundColor="#00ff00" leadsTo="playlist"/>
+				<overlay text="What's inside??" width="1920px" height="100px" x="0px" y="800px" alpha="0" hoverAlpha="0" backgroundColor="#000000"/-->
+				<overlay width="250px" height="240px" x="760px" y="470px" alpha="0" hoverAlpha="0" backgroundColor="#00ff00" leadsTo="playlist"/>
+				<overlay text="&#8593;&#8593;&#8593;&#8593;&#8593;" width="300px" height="100px" x="700px" y="700px" alpha="0" hoverAlpha="0" textColor="red" backgroundColor="#000000"/>
+				<overlay text="What's inside?" width="400px" height="100px" x="650px" y="800px" alpha="1" hoverAlpha="1" backgroundColor="red"/>
+				</image>
+            </media>
+        </subject>
+		
+		<subject id="playlist">
+            <media>
+                <youtube id="4KPjv6XitIQ" duration="152.5" repeat="true">
+				<overlay text="Jo's Mini Album #1!" width="1920px" height="150px" x="0px" y="50px" alpha="0.8" hoverAlpha="0.8" fontSize="70pt" backgroundColor="red"/>
+				<overlay text="Back" shape="circle" diameter="150px" x="50px" y="880px" alpha="0.4" backgroundColor="purple" leadsTo="startscreen"/>
+				<overlay text="Chinese" width="640px" height="100px" x="0px" y="340px" alpha="0.8" hoverAlpha="0.8" backgroundColor="purple"/>
+				<overlay text="月亮代表我的心" width="640px" height="100px" x="0px" y="441px" alpha="0.6" hoverAlpha="0.8" backgroundColor="#E066FF" leadsTo="Moon"/>
+				<overlay text="Thai" width="640px" height="100px" x="640px" y="340px" alpha="0.8" hoverAlpha="0.8" backgroundColor="purple"/>
+				<overlay text=" เอาที่สบายใจ " width="640px" height="100px" x="640px" y="441px" alpha="0.6" hoverAlpha="0.8" backgroundColor="#E066FF" leadsTo="Thai1"/>
+				<overlay text=" รู้ยัง " width="640px" height="100px" x="640px" y="541px" alpha="0.6" hoverAlpha="0.8" backgroundColor="#E066FF" leadsTo="Thai2"/>
+				<overlay text="AF11 Week1 of Nam" width="640px" height="100px" x="640px" y="642px" alpha="0.6" hoverAlpha="0.8" backgroundColor="#E066FF" leadsTo="Thai3"/>
+				<overlay text="60 miles - Hak Chan Tai" width="640px" height="100px" x="640px" y="743px" alpha="0.6" hoverAlpha="0.8" backgroundColor="#E066FF" leadsTo="Thai4"/>
+				<overlay text="Perd Jai Mai Perd Tua" width="640px" height="100px" x="640px" y="844px" alpha="0.6" hoverAlpha="0.8" backgroundColor="#E066FF" leadsTo="Thai5"/>
+				<overlay text="English" width="640px" height="100px" x="1280px" y="340px" alpha="0.8" hoverAlpha="0.8" backgroundColor="purple"/>
+				<overlay text="Dear Santa" width="640px" height="100px" x="1280px" y="441px" alpha="0.6" hoverAlpha="0.8" backgroundColor="#E066FF" leadsTo="DearSanta"/>
+				</youtube>
+            </media>
+        </subject>
+	
+		<subject id="Moon" repeat="true">
+			<media>
+				<video>
+					<source file="media/Moon" extensions="mp4" types="video/mp4"/>
+					<overlay text="Back" shape="circle" diameter="150px" x="50px" y="880px" alpha="0.4" backgroundColor="purple" leadsTo="playlist"/>
+				</video>
+			</media>
+		</subject>
+		
+		<subject id="Thai1" repeat="true">
+			<media>
+				<video>
+					<source file="media/Thai1" extensions="mp4" types="video/mp4"/>
+					<overlay text="Back" shape="circle" diameter="150px" x="50px" y="880px" alpha="0.4" backgroundColor="purple" leadsTo="playlist"/>
+				</video>
+			</media>
+		</subject>
+		
+        <subject id="Thai2" repeat="true">
+			<media>
+				<video>
+					<source file="media/Thai2" extensions="mp4" types="video/mp4"/>
+					<overlay text="Back" shape="circle" diameter="150px" x="50px" y="880px" alpha="0.4" backgroundColor="purple" leadsTo="playlist"/>
+				</video>
+			</media>
+		</subject>
+		
+        <subject id="Thai3" repeat="true">
+			<media>
+				<video>
+					<source file="media/Thai3" extensions="mp4" types="video/mp4"/>
+					<overlay text="Back" shape="circle" diameter="150px" x="50px" y="880px" alpha="0.4" backgroundColor="purple" leadsTo="playlist"/>
+				</video>
+			</media>
+		</subject>
+		
+        <subject id="Thai4" repeat="true">
+			<media>
+				<video>
+					<source file="media/Thai4" extensions="mp4" types="video/mp4"/>
+					<overlay text="Back" shape="circle" diameter="150px" x="50px" y="880px" alpha="0.4" backgroundColor="purple" leadsTo="playlist"/>
+				</video>
+			</media>
+		</subject>
+		
+		<subject id="Thai5" repeat="true">
+			<media>
+				<video>
+					<source file="media/Thai5" extensions="mp4" types="video/mp4"/>
+					<overlay text="Back" shape="circle" diameter="150px" x="50px" y="880px" alpha="0.4" backgroundColor="purple" leadsTo="playlist"/>
+				</video>
+			</media>
+		</subject>
+		
+		<subject id="DearSanta" repeat="true">
+			<media>
+				<video>
+					<source file="media/DearSanta" extensions="mp4" types="video/mp4"/>
+					<overlay text="Back" shape="circle" diameter="150px" x="50px" y="880px" alpha="0.4" backgroundColor="purple" leadsTo="playlist"/>
+				</video>
+			</media>
+		</subject>
+		
+    </playlist>
+</ximpel>
